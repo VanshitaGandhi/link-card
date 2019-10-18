@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, sans-serif;
+  line-height: 1.5;
+  color: #785439;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  color: #512200;
+}
+
+.btn {
+  text-decoration: none;
+  padding: .4em .75em .5em;
+  border-radius: 3px;
+  border-width: 3px;
+  color: #fff;
+  background-color: #785439;
+}
+
+a:hover {
+  background-color: #512200;
+}
