@@ -10,8 +10,8 @@ html {
   box-sizing: inherit;
 }
 
-h2 {
-  font-family: 'Dosis', sans-serif;
+.link-card h2 {
+  font-family: "Dosis", sans-serif;
   color: #512200;
 }
 
@@ -30,8 +30,8 @@ h2 {
 }
 
 dl {
-  border-top: solid 2px #512200;
-  border-bottom: solid 2px #512200;
+  border-top: solid 2px #9a816d;
+  border-bottom: solid 2px #9a816d;
 }
 
 p {
@@ -39,19 +39,38 @@ p {
   color: #512200;
 }
 
+.link-card dl {
+  margin-bottom: 1rem;
+  padding: 20px;
+}
+
+.link-card dt {
+  display: inline-block;
+  width: 6em;
+}
+
+.link-card dd {
+  display: inline-block;
+  min-width: 20em;
+}
+
+body div {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
 .btn {
+  display: inline-block;
   text-decoration: none;
-  padding: .4em .75em .5em;
+  padding: .5em .75em;
   border-radius: 3px;
-  border-width: 3px;
+  border-width: 8px;
   color: #fff;
   background-color: #785439;
-  vertical-align: middle;
 }
 
 .link-card:hover .btn {
   background-color: #512200;
-
 }
 
 a:hover {
